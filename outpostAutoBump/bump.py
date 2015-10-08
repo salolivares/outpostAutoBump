@@ -7,7 +7,6 @@ def run():
 
     buttonList = browser.find_by_css(".trade_bump")
     listSize = len(buttonList)
-    print listSize
     log.logMessage("Bumping " + str(listSize) + " items")
 
     for i in range(listSize):
