@@ -1,3 +1,3 @@
-import outpostAutoBump.bump
+import outpostAutoBump.bump, config
 
-outpostAutoBump.bump.execute(15)
+outpostAutoBump.bump.execute(config.MINUTES_BETWEEN_BUMP)
